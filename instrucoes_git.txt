@@ -13,3 +13,16 @@ git init
 
 # indica o arquivo/diretório a ser rastreado pelo git
 git add nome_arquivo.txt
+
+# grava/registra o arquivo no repositório
+# o parâmetro -m indica a opção de mostrar uma mensagem
+git commit -m "primeiro commit realizado"
+
+# verifica o histórico de modificações registradas no repositório
+git log
+
+# aponta o repositório local para o repositório remoto (GitHub, no caso)
+git remote add origin https://github.com/diego4raujos/teste-git
+
+# enviar as modificações para o repositório remoto (GitHub)
+git push origin master
