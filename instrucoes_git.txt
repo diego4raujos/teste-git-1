@@ -25,4 +25,6 @@ git log
 git remote add origin https://github.com/diego4raujos/teste-git
 
 # enviar as modificações para o repositório remoto (GitHub)
-git push origin master
+git push http://<token>@github.com/<user_github/<nome_repositorio>
+git push http://Rda3fwB@github.com/diego4raujos/teste-git # exemplo
+
