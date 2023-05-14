@@ -1,0 +1,15 @@
+INSTRUÇÕES DE GIT
+
+# configura dados do usuário do sistema git; 
+# para projetos específicos, não adicionar o parâmetro --global
+git config --global user.name "Diego Araújo"
+git config --global user.email "diego.araujos@outlook.com.br"
+
+# visualiza as configurações definidas no git
+git config --list
+
+# inicializa/transforma o diretório em um repositório git
+git init
+
+# indica o arquivo/diretório a ser rastreado pelo git
+git add nome_arquivo.txt
