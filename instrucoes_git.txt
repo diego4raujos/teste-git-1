@@ -11,6 +11,13 @@ git config --list
 # inicializa/transforma o diretório em um repositório git
 git init
 
+# verifica qual branch está sendo utilizada
+git status (On branch nome_branch)
+git branch (* nome_branch) - * indica qual branch está em uso
+
+# mudar de branch
+git checkout nome_branch
+
 # indica o arquivo/diretório a ser rastreado pelo git
 git add nome_arquivo.txt
 
@@ -21,10 +28,13 @@ git commit -m "primeiro commit realizado"
 # verifica o histórico de modificações registradas no repositório
 git log
 
+# lista o nome dado à url do repositório remoto (origin, por exemplo) e sua respectiva url
+git remote -v
+
 # aponta o repositório local para o repositório remoto (GitHub, no caso)
 git remote add origin https://github.com/diego4raujos/teste-git
 
 # enviar as modificações para o repositório remoto (GitHub)
-git push http://<token>@github.com/<user_github/<nome_repositorio>
-git push http://Rda3fwB@github.com/diego4raujos/teste-git # exemplo
+#git push http://<token>@github.com/<user_github/<nome_repositorio>
+#git push http://Rda3fwB@github.com/diego4raujos/teste-git # exemplo
 
