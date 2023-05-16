@@ -21,20 +21,24 @@ git checkout nome_branch
 # indica o arquivo/diretório a ser rastreado pelo git
 git add nome_arquivo.txt
 
+# lista o nome dado à url do repositório remoto (origin, por exemplo) e sua respectiva url
+git remote -v
+
 # grava/registra o arquivo no repositório
 # o parâmetro -m indica a opção de mostrar uma mensagem
 git commit -m "primeiro commit realizado"
 
+# aponta o repositório local para o repositório remoto (GitHub, no caso)
+# adiciona um nome para a url do repositório remoto
+git remote add origin https://github.com/diego4raujos/teste-git
+
 # verifica o histórico de modificações registradas no repositório
 git log
 
-# lista o nome dado à url do repositório remoto (origin, por exemplo) e sua respectiva url
-git remote -v
+# envia/atualiza o conteúdo do repo local para o repo remoto
+git push oring main
+	é solicitado nome de usuário do Github
+	é solicitado senha de usuário do Github; informei o token
+	
 
-# aponta o repositório local para o repositório remoto (GitHub, no caso)
-git remote add origin https://github.com/diego4raujos/teste-git
-
-# enviar as modificações para o repositório remoto (GitHub)
-#git push http://<token>@github.com/<user_github/<nome_repositorio>
-#git push http://Rda3fwB@github.com/diego4raujos/teste-git # exemplo
 
