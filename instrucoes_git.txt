@@ -32,13 +32,15 @@ git commit -m "primeiro commit realizado"
 # adiciona um nome para a url do repositório remoto
 git remote add origin https://github.com/diego4raujos/teste-git
 
-# verifica o histórico de modificações registradas no repositório
-git log
-
 # envia/atualiza o conteúdo do repo local para o repo remoto
 git push oring main
 	é solicitado nome de usuário do Github
 	é solicitado senha de usuário do Github; informei o token
-	
 
+# verifica o histórico de modificações registradas no repositório
+git log
+
+##### OBSERVAÇÃO: precedência de comandos
+git add nome_arquivo.txt
+git commit -m "mensagem"
 
